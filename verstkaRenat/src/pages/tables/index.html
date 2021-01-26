@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <include src="src/components/head.html"></include>
+    <link rel="stylesheet" href="/vendor/fonts.css">
+</head>
+
+<body>
+    <div class="container__all">
+        <include src="src/components/sidebar/sidebar.html"></include>
+
+        <div class="right">
+            <include src="src/components/header/header.html"></include>
+            <div class="content">
+                <h1 class="tables__title">Tables</h1>
+                <p class="tables__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut debitis nulla sequi
+                    obcaecati quos sunt hic est nihil, culpa aliquam?</p>
+                <div class="tables__cell">
+                    <div class="table__title-two">Data Tables Example</div>
+                    <div class="table__content">
+                        <div class="table__content-top">
+                            <div>
+                                Show
+                                <select class="table__content-number">
+                                    <option value="10">10</option>
+                                    <option value="25">25</option>
+                                    <option value="50">50</option>
+                                    <option value="100">100</option>
+                                </select>
+                                entries
+                            </div>
+                            <div>Search:
+                                <input class="table__content-search" type="search">
+                            </div>
+                        </div>
+                        <table>
+                            <thead>
+                                <th>Name</th>
+                                <th>Position</th>
+                                <th>Office</th>
+                                <th>Age</th>
+                                <th>Start date</th>
+                                <th>Salary</th>
+                            </thead>
+                            <tr>
+                                <td>Jennifer Chang</td>
+                                <td>Regional Director</td>
+                                <td>Singapore</td>
+                                <td>28</td>
+                                <td>2010/11/14</td>
+                                <td>$357,650</td>
+                            </tr>
+                            <tfoot>
+                                <th>Name</th>
+                                <th>Position</th>
+                                <th>Office</th>
+                                <th>Age</th>
+                                <th>Start date</th>
+                                <th>Salary</th>
+                            </tfoot>
+                        </table>
+                        <div class="table__content-bottom">
+                            <div class="table__content-bottom-text">Showing 1 to 10 of 57 entries</div>
+                            <div class="next__prev-slider">
+                                <div class="next__prev-slider-button previous">Previous</div>
+                                <div class="next__prev-slider-button next">1</div>
+                                <div class="next__prev-slider-button next">2</div>
+                                <div class="next__prev-slider-button next">3</div>
+                                <div class="next__prev-slider-button next">4</div>
+                                <div class="next__prev-slider-button next">5</div>
+                                <div class="next__prev-slider-button next">6</div>
+                                <div class="next__prev-slider-button next non__border">Next</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="/script.js"></script>
+</body>
+
+</html>

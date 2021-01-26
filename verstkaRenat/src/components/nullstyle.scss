@@ -1,0 +1,21 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+  a:hover{
+    text-decoration: none;
+    color: #fff;
+  }
+  ul{
+    list-style: none;
+  }
+  @mixin fzcol($f,$c){
+    font-size: $f; 
+    color: $c;
+  }

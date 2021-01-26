@@ -1,0 +1,42 @@
+{
+  "name": "verstkarenat",
+  "version": "1.0.0",
+  "description": "1. Подключить файл стилей `vendor/fontawesome-free/css/all.min.css` к странице\r 2. Добавить тег i с параметрами `<i class=\"fas fa-fw fa-tachometer-alt\"></i>`, где `fa-tachometer-alt` имя иконки.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "gulp styles",
+    "build:html": "gulp html",
+    "dev": "gulp start",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/st63/newExample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/st63/newExample/issues"
+  },
+  "homepage": "https://github.com/st63/newExample#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify-es": "^2.0.0"
+  },
+  "dependencies": {
+    "gulp-posthtml": "^3.0.5",
+    "gulp-svg-sprite": "^1.5.0",
+    "posthtml-expressions": "^1.7.1",
+    "posthtml-include": "^1.6.0",
+    "posthtml-remove-attributes": "^1.0.0",
+    "posthtml-richtypo": "^1.0.2",
+    "richtypo-rules-ru": "^4.0.3"
+  }
+}

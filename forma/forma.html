@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="range-wrap">
+            <div class="text">Укажите необходимую сумму и срок:</div>
+            <div class="container">
+
+                <form class="form-horizontal">
+
+                    <div class="form-group">
+                        <label for="quantity" class="col-sm-2 control-label"></label>
+                        <div class="col-sm-10">
+                            <div class="input-group">
+                                <div class="form__top-div">
+                                    <div class="text__two">Сумма кредита, руб.</div>
+                                    <div class="input-group-addon">
+                                        <input type="number" min="1000" max="1000000" step="1" value="500000"
+                                            class="input-range-box">
+                                    </div>
+                                </div>
+                                <input type="range" min="1000" max="1000000" step="1000" list="tickmarks"
+                                    class="form-control input-range-bar">
+                                   <!-- <div class="arrows">
+                                        <div class="arrow arrow-left"></div>
+                                        <div class="arrow arrow-right"></div>
+                                    </div>-->
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+            <div class="diapazon">
+                <div class="diapazon__one">1 000</div>
+                <div class="diapazon__two">1 000 000</div>
+            </div>
+            <div class="text__three">Вероятность одобрения: <span class="vivod"></span>
+            </div>
+            <div class="one__btn">
+                <a href="#">
+                    Получить деньги
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
