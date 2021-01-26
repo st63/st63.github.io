@@ -1,0 +1,98 @@
+@import "_null";
+
+.main-page {
+	&__container {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0 15px;
+	}
+
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row-reverse;
+		width: 100%;
+		padding: 68px 0px 68px 0px;
+	}
+
+	&__resume {
+		max-width: 50%;
+		padding-right: 45px;
+	}
+
+	&__title {
+		font-size: 30px;
+		font-weight: bold;
+	}
+
+	&__text {
+		font-size: 16px;
+	}
+
+	&__list {
+		font-size: 22px;
+		font-weight: 600;
+	}
+
+	&__list-item {
+		font-size: 16px;
+		font-weight: normal;
+		margin-top: 5px;
+	}
+
+	&__arrow {
+		width: 70px;
+	}
+
+	&__contacts-link {
+		border-right: 1px solid #000;
+		color: #000;
+		padding-right: 8px;
+
+		&_border-none {
+			border: none;
+		}
+	}
+
+	&__examples-box {
+		max-width: 50%;
+	}
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__column {
+		min-height: 245px;
+		width: 49%;
+		padding: 27px;
+		&_color1 {
+			background-color: #99a4b7;
+			& .main-page__col-title {
+				margin-bottom: 20px;
+			}
+		}
+
+		&_color2 {
+			background-color: #b1cccb;
+		}
+	}
+
+	&__col-title {
+		font-size: 18px;
+		font-weight: 600;
+		margin-bottom: 40px;
+	}
+
+	&__col-text {
+		font-size: 16px;
+		color: grey;
+		margin-bottom: 75px;
+	}
+
+	&__col-link {
+		border-bottom: 1px solid #000;
+		color: #000;
+	}
+}
