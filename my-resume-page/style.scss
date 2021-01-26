@@ -65,8 +65,11 @@
 
 	&__column {
 		min-height: 245px;
-		width: 49%;
 		padding: 27px;
+		&:hover{
+			transform: scale(1.03);
+			transition: 1s
+		}
 		&_color1 {
 			background-color: #99a4b7;
 			& .main-page__col-title {
@@ -92,7 +95,6 @@
 	}
 
 	&__col-link {
-		border-bottom: 1px solid #000;
-		color: #000;
+		width: 49%;
 	}
 }
