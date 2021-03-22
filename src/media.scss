@@ -50,8 +50,12 @@
 }
 
 @media (max-width: 575px) {
-	.main-page__row {
-		display: block;
+	.main-page__examples-box {
+		flex-direction: column;
+	}
+
+	.main-page__col-link {
+		width: 100%;
 	}
 
 	.main-page__column {
